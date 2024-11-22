@@ -1,0 +1,17 @@
+fun main() {
+    val names = mutableListOf("Ana", "João", "Maria", "Pedro", "Carla")
+    val nameToCheck = "Lucas"
+    if (nameToCheck in names) {
+        println("$nameToCheck está na lista.")
+    } else {
+        println("$nameToCheck não está na lista.")
+    }
+    println("lista original:")
+	println(names)
+    names.add("Lucas")
+    println("Adicionado Lucas à lista: $names")
+	println(names)
+    names.remove("Ana")
+    println("Removido Ana da lista: $names")
+    println(names)
+}
