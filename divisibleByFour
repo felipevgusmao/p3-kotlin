@@ -1,0 +1,6 @@
+fun main() {
+	val numbers = (0..100).toList()
+    println(numbers)
+    val divisibleByFour = numbers.filter { it % 4 == 0 }
+    println(divisibleByFour)
+}
